@@ -33,8 +33,29 @@ module.exports = {
         techs: techsArray,
         location
       });
+      
     }
-
+    
     return res.json(dev);
-  }
+  },
+
+  async update(req, res) {
+    const { github_username } = req.params;
+
+    let dev = await Dev.findOne({github_username});
+    
+    await dev.update(req.body);
+
+    return res.json(req.body);
+  },
+
+  async destroy(req, res) {
+    const { github_username } = req.params;
+
+    let dev = await Dev.findOne({ github_username });
+
+    await dev.remove();
+
+    return res.json();
+  },
 };
