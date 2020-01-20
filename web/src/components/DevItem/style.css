@@ -1,9 +1,7 @@
 li.dev-item{
-  background: #fff;
   box-shadow: 0 0 14px 0 rgba(0,0,0, 0.02);
   border-radius: 2px;
   padding: 20px;
-  transition: 1s;
 }
 
 li.dev-item header{
@@ -42,7 +40,6 @@ li.dev-item p{
 }
 
 .dev-item a {
-  color: #8e4dff;
   font-size: 14px;
   text-decoration: none;
 }

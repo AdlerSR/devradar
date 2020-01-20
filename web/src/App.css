@@ -25,3 +25,13 @@
     width: 100%;
   }
 }
+
+.change-theme{
+  height: 30px;
+  font-size: 15px;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  border-radius: 2px;
+  padding: 0px 10px;
+}

@@ -18,7 +18,6 @@ aside form .input-group .input-block{
 }
 
 aside form .input-block label{
-  color: #acacac;
   font-size: 14px;
   font-weight: bold;
   display: block;
@@ -30,6 +29,7 @@ aside form .input-block input{
   font-size: 14px;
   border: 0;
   border-bottom: 1px solid #eee;
+  background-color: transparent;
 }
 
 aside form button[type=submit]{
